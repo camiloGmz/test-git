@@ -1,0 +1,69 @@
+html, body {
+    height: 100%;
+    font: 15px Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+img {
+    max-width: 100%;
+}
+.logo {
+    width: 70px;
+    margin-left: 50px;
+}
+nav {
+    background-color: rgba(60, 156, 164);
+    color: #fff;
+    padding-top: 30px;
+    min-height: 50px;
+    border-bottom: 5px solid #e68f06;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/* cover */
+
+#cover {
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#cover-texto {
+    width: 100%;
+}
+#cover-texto .form-inline {
+    width: 100%;
+}
+.btn {
+    background: #e68f06;
+    border: none;
+}
+.btn:hover {
+    background: rgba(60, 156, 164);
+    border: none;
+}
+.contenido-seccion {
+    padding: 5rem 0;
+}
+#acerca-de {
+    background: url('../img/portrait-787522_1920.jpg') center center no-repeat;
+    background-size: cover;
+}
+.texto-acerca-de {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 1.875rem;
+}
+#footer-main {
+    background: #222;
+    color: white;
+    font-size: 0.8rem;
+    padding: 2.5rem 0;
+}
